@@ -11,6 +11,8 @@ The definition of the EMODnet Physics parameters can be retrieved as an XML docu
 
 The definition of the EMODnet Physics parameters groups can be retrieved as an XML document at this link: [GetAllParametersGroup](http://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx?q=GetAllParametersGroup)
 
+Live examples on how to use WMS on this page: http://www.emodnet-physics.eu/Map/service/GeoServerDefaultWMS.aspx
+
 # Layers information
 
 ### 
