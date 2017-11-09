@@ -35,8 +35,8 @@ Parameters ([description](#parameters-description))
 </td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllLatestData60Days&PlatformID=10000)  
-[TXT](WSEmodnet2.aspx?q=GetAllLatestData60Days&PlatformID=10000&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestData60Days&PlatformID=10000)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestData60Days&PlatformID=10000&Format=txt)</td>
 </tr>
 <tr>
 <td>
@@ -47,8 +47,8 @@ Parameters ([description](#parameters-description))
 ParamCode</td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllLatestDataCode&PlatformID=10000&ParamCode=TEMP)  
-[TXT](WSEmodnet2.aspx?q=GetAllLatestDataCode&PlatformID=10000&ParamCode=TEMP&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataCode&PlatformID=10000&ParamCode=TEMP)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataCode&PlatformID=10000&ParamCode=TEMP&Format=txt)</td>
 
 </tr>
 
@@ -64,8 +64,8 @@ EndDate</td>
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllLatestDataFromTo&PlatformID=10000&StartDate=24/09/2017&EndDate=08/11/2017)  
-[TXT](WSEmodnet2.aspx?q=GetAllLatestDataFromTo&PlatformID=10000&StartDate=24/09/2017&EndDate=08/11/2017&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataFromTo&PlatformID=10000&StartDate=24/09/2017&EndDate=08/11/2017)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataFromTo&PlatformID=10000&StartDate=24/09/2017&EndDate=08/11/2017&Format=txt)</td>
 
 </tr>
 
@@ -81,8 +81,8 @@ StartDate<br>
 EndDate</td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllLatestDataFromToCode&PlatformID=10000&ParamCode=TEMP&StartDate=24/09/2017&EndDate=08/11/2017)  
-[TXT](WSEmodnet2.aspx?q=GetAllLatestDataFromToCode&PlatformID=10000&ParamCode=TEMP&StartDate=24/09/2017&EndDate=08/11/2017&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataFromToCode&PlatformID=10000&ParamCode=TEMP&StartDate=24/09/2017&EndDate=08/11/2017)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataFromToCode&PlatformID=10000&ParamCode=TEMP&StartDate=24/09/2017&EndDate=08/11/2017&Format=txt)</td>
 
 </tr>
 
@@ -98,8 +98,8 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllLatestDataParameterGroup&PlatformID=10000&ParameterGroupID=10)  
-[TXT](WSEmodnet2.aspx?q=GetAllLatestDataParameterGroup&PlatformID=10000&ParameterGroupID=10&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataParameterGroup&PlatformID=10000&ParameterGroupID=10)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllLatestDataParameterGroup&PlatformID=10000&ParameterGroupID=10&Format=txt)</td>
 
 </tr>
 
@@ -112,8 +112,8 @@ ParameterGroupID
 <td></td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllParameters)  
-[TXT](WSEmodnet2.aspx?q=GetAllParameters&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllParameters)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllParameters&Format=txt)</td>
 
 </tr>
 
@@ -126,8 +126,8 @@ ParameterGroupID
 <td></td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllParametersGroup)  
-[TXT](WSEmodnet2.aspx?q=GetAllParametersGroup&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllParametersGroup)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllParametersGroup&Format=txt)</td>
 
 </tr>
 
@@ -140,8 +140,8 @@ ParameterGroupID
 <td></td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllPlatforms)  
-[TXT](WSEmodnet2.aspx?q=GetAllPlatforms&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatforms)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatforms&Format=txt)</td>
 
 </tr>
 
@@ -155,10 +155,29 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetPlatformId&PlatformID=10746)  
-[TXT](WSEmodnet2.aspx?q=GetPlatformId&PlatformID=10746&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetPlatformId&PlatformID=10746)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetPlatformId&PlatformID=10746&Format=txt)</td>
 
 </tr>
+
+<tr>
+
+<td>
+
+[GetAllPlatformsBBoxCode](#getallplatformsbboxcode)</td>
+<td>it gives the list of the platforms and details for the specified bounding box and parameter code</td>
+<td>BBox<br>
+ParamCode
+</td>
+
+<td>
+
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsBBoxCode&BBox=-12,37,4,53&ParamCode=TEMP)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsBBoxCode&BBox=-12,37,4,53&ParamCode=TEMP&Format=txt)</td>
+
+</tr>
+
+<tr>
 
 <tr>
 
@@ -170,8 +189,8 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllPlatformsDataOwner&DataOwnerCode=ISPRA)  
-[TXT](WSEmodnet2.aspx?q=GetAllPlatformsDataOwner&DataOwnerCode=ISPRA&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsDataOwner&DataOwnerCode=ISPRA)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsDataOwner&DataOwnerCode=ISPRA&Format=txt)</td>
 
 </tr>
 
@@ -185,8 +204,8 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllPlatformsParameterGroup&ParameterGroupID=10)  
-[TXT](WSEmodnet2.aspx?q=GetAllPlatformsParameterGroup&ParameterGroupID=10&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsParameterGroup&ParameterGroupID=10)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsParameterGroup&ParameterGroupID=10&Format=txt)</td>
 
 </tr>
 
@@ -199,8 +218,8 @@ ParameterGroupID
 <td></td>
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllRoos)  
-[TXT](WSEmodnet2.aspx?q=GetAllRoos&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllRoos)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllRoos&Format=txt)</td>
 
 </tr>
 
@@ -214,8 +233,8 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetAllPlatformsRoos&RoosID=7)  
-[TXT](WSEmodnet2.aspx?q=GetAllPlatformsRoos&RoosID=7&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsRoos&RoosID=7)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetAllPlatformsRoos&RoosID=7&Format=txt)</td>
 
 </tr>
 
@@ -229,8 +248,8 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetPlatformMonthlyCDIAvailability&PlatformID=14500)  
-[TXT](WSEmodnet2.aspx?q=GetPlatformMonthlyCDIAvailability&PlatformID=14500&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetPlatformMonthlyCDIAvailability&PlatformID=14500)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetPlatformMonthlyCDIAvailability&PlatformID=14500&Format=txt)</td>
 
 </tr>
 
@@ -244,8 +263,8 @@ ParameterGroupID
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetPlatformMinMaxAVG&PlatformID=8551)  
-[TXT](WSEmodnet2.aspx?q=GetPlatformMinMaxAVG&PlatformID=8551&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetPlatformMinMaxAVG&PlatformID=8551)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetPlatformMinMaxAVG&PlatformID=8551&Format=txt)</td>
 
 </tr>
 
@@ -267,8 +286,8 @@ EndDate(optional)
 
 <td>
 
-[XML](WSEmodnet2.aspx?q=GetMonthlyData&usernameCMEMS=user&passwordCMEMS=pass&PlatformID=8427&Parameter=TEMP&QC=1&StartDate=01/01/2017&EndDate=31/01/2017)  
-[TXT](WSEmodnet2.aspx?q=GetMonthlyData&usernameCMEMS=user&passwordCMEMS=pass&PlatformID=8427&Parameter=TEMP&QC=1&StartDate=01/01/2017&EndDate=31/01/2017&Format=txt)</td>
+[XML](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetMonthlyData&usernameCMEMS=user&passwordCMEMS=pass&PlatformID=8427&Parameter=TEMP&QC=1&StartDate=01/01/2017&EndDate=31/01/2017)  
+[TXT](http://www.emodnet-physics.eu/Map/Service/WSEmodnet2.aspx?q=GetMonthlyData&usernameCMEMS=user&passwordCMEMS=pass&PlatformID=8427&Parameter=TEMP&QC=1&StartDate=01/01/2017&EndDate=31/01/2017&Format=txt)</td>
 
 </tr>
 
@@ -279,19 +298,19 @@ EndDate(optional)
 # Parameters Description
 parameters | description
 ---------------- | -----------
-DataOwnerCode
-ParamCode
-Parameter
-ParameterGroupID
-PlatformID
-RoosID
-StartDate, EndDate
-usernameCMEMS, passwordCMEMS
-
-QC
-
+BBox | 
+DataOwnerCode | 
+ParamCode | 
+Parameter | 
+ParameterGroupID | 
+PlatformID | 
+QC | 
+RoosID | 
+StartDate, EndDate | 
+usernameCMEMS, passwordCMEMS | 
 
 # Method return variables
+
 
 ### GetAllDataOwner
 return variables | description
@@ -402,12 +421,33 @@ EDMO | EDMO code
 LastDataMeasured | date of the last measurement
 YearDataMeasured | list of the years when the platform worked
 
-### GetAllPlatformsDataOwner
+### GetAllPlatformsBBoxCode
 return variables | description
 ---------------- | -----------
 PlatformID | EMODnet Physics external Platform ID
 PlatformType | Type of the platform
 DataOwnerCode | data owner acronym
+HistoricalPlatformCDI | is the platform connected to any SeaDataNet CDI?
+PlatformCode | platform name
+WMOPlatformCode | WMO code (if available)
+MyOceanNumber | internal code to link to crosslink the platform and MYO products
+Parameters | recorded parameters (international code acronym)
+Latitude | Latitude
+Longitude | Longitude
+EDMO | EDMO code
+LastDataMeasured | date of the last measurement
+YearDataMeasured | list of the years when the platform worked
+Institution | data owner acronym
+InstitutionReference | data owner website
+Contact | principal investigator - data curator emails
+DataAssemblyCenter | data assembly full name
+
+### GetAllPlatformsDataOwner
+return variables | description
+---------------- | -----------
+PlatformID | EMODnet Physics external Platform ID
+PlatformType | Type of the platform
+DataOwnerCode | data owner code acronym
 HistoricalPlatformCDI | is the platform connected to any SeaDataNet CDI?
 PlatformCode | platform name
 Parameters | recorded parameters (international code acronym)
@@ -426,7 +466,7 @@ return variables | description
 ---------------- | -----------
 PlatformID | EMODnet Physics external Platform ID
 PlatformType | Type of the platform
-DataOwnerCode | data owner acronym
+DataOwnerCode | data owner code acronym
 HistoricalPlatformCDI | is the platform connected to any SeaDataNet CDI?
 PlatformCode | platform name
 WMOPlatformCode | WMO code (if available)
@@ -437,7 +477,7 @@ Longitude | Longitude
 EDMO | EDMO code
 LastDataMeasured | date of the last measurement
 YearDataMeasured | list of the years when the platform worked
-Provider | data owner acronym
+Institution | data owner acronym
 InstitutionReference | data owner website
 Contact | principal investigator - data curator emails
 DataAssemblyCenter | data assembly full name

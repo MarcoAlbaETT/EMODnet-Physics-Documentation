@@ -153,6 +153,15 @@ Value | Description
 
 **For styling the Data Products layers refer to [Data Products Layers styling guide](DataProductsLayers/StylingGuide.md)**
 
+## Layers for Marine Mammals Data Products
+Name | Description | Link 
+---- | ----------- | ---- 
+route_mm_psal_0d |Platforms: Marine Mammals - Parameter: PSAL - Time coverage: from 2004 to 2016|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_psal_0d/wfs?service=WFS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [GeoJSON Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=emodnet:route_mm_psal_0d&maxFeatures=50&outputFormat=application%2Fjson)
+route_mm_temp_0d |Platforms: Marine Mammals - Parameter: TEMP - Time coverage: from 2004 to 2016|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_temp_0d/wfs?service=WFS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [GeoJSON Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=emodnet:route_mm_temp_0d&maxFeatures=50&outputFormat=application%2Fjson)
+
+**_For information on how to use the layers for Marine Mammals Data Products please refer to [EMODnet Physics Marine Mammals Product document](EMODnetPhysicsMarineMammalsProduct.md)_**
+
+
 ---
 
 ## EXAMPLE

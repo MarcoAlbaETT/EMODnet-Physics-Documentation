@@ -87,7 +87,7 @@ Example: `viewparams=yearrange:19002015`
 Name | Description | Link | Filters ([see note](./WMS.md#note-for-data-products-layers))
 ---- | ----------- | ---- | -------
 route_ar_psal_60d |Platforms: Argo - Parameter: PSAL - Time coverage: last 60 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_ar_psal_60d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_ar_psal_60d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| Elevation - QC
-route_ar_psal_7d |Platforms: Argo - Parameter: PSAL - Time coverage: last 7 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_ar_psal_677d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_ar_psal_7d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| Elevation - QC
+route_ar_psal_7d |Platforms: Argo - Parameter: PSAL - Time coverage: last 7 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_ar_psal_7d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_ar_psal_7d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| Elevation - QC
 route_ar_temp_60d |Platforms: Argo - Parameter: TEMP - Time coverage: last 60 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_ar_temp_60d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_ar_temp_60d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| Elevation - QC
 route_ar_temp_7d |Platforms: Argo - Parameter: TEMP - Time coverage: last 7 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_ar_temp_7d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_ar_temp_7d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| Elevation - QC
 route_db_atms_60d |Platforms: Drifting Buoy - Parameter: ATMS - Time coverage: last 60 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_db_atms_60d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_db_atms_60d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| QC
@@ -151,6 +151,14 @@ Value | Description
 9 | missing value
 
 **For styling the Data Products layers refer to [Data Products Layers styling guide](DataProductsLayers/StylingGuide.md)**
+
+## Layers for Marine Mammals Data Products
+Name | Description | Link 
+---- | ----------- | ---- 
+route_mm_psal_0d |Platforms: Marine Mammals - Parameter: PSAL - Time coverage: from 2004 to 2016|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_psal_0d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_mm_psal_0d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)
+route_mm_temp_0d |Platforms: Marine Mammals - Parameter: TEMP - Time coverage: from 2004 to 2016|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_temp_0d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_mm_temp_0d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)
+
+**_For information on how to the layers for Marine Mammals Data Products please refer to [EMODnet Physics Marine Mammals Product document](EMODnetPhysicsMarineMammalsProduct.md)_**
 
 
 ## EXAMPLE
