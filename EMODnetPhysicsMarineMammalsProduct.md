@@ -140,90 +140,43 @@ To furter refine the visualization, three other options are available
 
 1.  **elevation**: this option can be used to specifiy the depth of the
     routes to show and his value is in the format min/max (based on
-    table 1) .\
+    table 1) .
     Example:
 
-    a.  To show only route near surface use the value "0/0"
+    * To show only route near surface use the value "0/0"  
+    * To show route between 100m and 1000m use the value "3/5"
 
-    b.  To show route between 100m and 1000m use the value "3/5"
-
-2.  **time**: this option can be used to show routes between a start and
-    end date and his value is in the format startdate/enddate; all date
-    are in
-    [ISO-8601](http://en.wikipedia.org/wiki/ISO_8601)
-    format. The list of available date are returned by the WMS
-    GetCapabilities request.\
+2.  **time**: this option can be used to show routes between a start and end date and his value is in the format startdate/enddate; all date
+    are in [ISO-8601](http://en.wikipedia.org/wiki/ISO_8601) format. The list of available date are returned by the WMS GetCapabilities request.\
     Example:
 
-    a.  To show routes for the year 2010 use the value
-        "2010-01-01T00:00:00.000Z/2010-12-31T23:59:59.999Z"
+    * To show routes for the year 2010 use the value "2010-01-01T00:00:00.000Z/2010-12-31T23:59:59.999Z"
 
-3.  **cql\_filter**: this option can be used to specify the QC and/or
-    the species of the routes to show.\
+3.  **cql\_filter**: this option can be used to specify the QC and/or the species of the routes to show.\
     Example:
 
-    a.  to show only routes with QC equal to 1 use the value "qc=1"
+    * to show only routes with QC equal to 1 use the value "qc=1"
 
-    b.  to show only route with QC equal to 1 or 2 use the value "qc=1
-        or qc=2"
+    * to show only route with QC equal to 1 or 2 use the value "qc=1 or qc=2"
 
-    c.  to show only route for the \"Weddell seal\" species use the
-        value "species='Weddell seal'"
+    * to show only route for the \"Weddell seal\" species use the value "species='Weddell seal'"
 
-    d.  to show only routes for the \"Weddell seal\" species with QC
-        equal to 1 use the value "qc=1 and species='Weddell seal'"
+    * to show only routes for the \"Weddell seal\" species with QC equal to 1 use the value "qc=1 and species='Weddell seal'"
 
 This code show the routes for Temperature parameter for the first 6
 months of the 2010, with depth between near surface and 100m, the QC
 equal to 1 and only for the the Southern Ellie species:
 
-**Acknowledgement** 
---------------------
+```javascript
+wmsOptions={
+	layers: "emodnet:route_mm_temp_0d",
+	style: "line",
+	format:"image/png",
+	transparent: "true",
+	elevation: "0/2",
+	time:"2010-01-01T00:00:00.000Z/2010-06-30T23:59:59.999Z",
+	cql_filter:"qc=1 and species='Southern ellie'"
+};
+var wmsLayer = L.tileLayer.wms("http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_temp_0d/wms?", wmsOptions).addTo(map);
+```
 
-*The marine mammal data were collected and made freely available by the
-International MEOP Consortium and the national programs that contribute
-to it. (http://www.meop.net).*
-
-**Important technical papers : **
-
-A thorough description of the CTD-SRDL technology can be found in : 
-
-*Boehme L., Lovell P., Biuw M., Roquet F., Nicholson J., Thorpe S. E.,
-Meredith M. P., and Fedak M., 2009. Technical Note: Animal-borne
-CTD-Satellite Relay Data Loggers for real-time oceanographic data
-collection. Ocean Sci., 5:685-695. [doi:
-10.5194/os-5-685-2009](http://dx.doi.org/10.5194/os-5-685-2009) [\[PDF\]](http://www.meop.net/boehme09osd.pdf)*
-
-The delayed-mode general methodology and estimated accuracy of CTD-SRDL
-hydrographic data are presented in :
-
-*Roquet F., Charrassin J.-B., Marchand S., Boehme L., Fedak M., Reverdin
-G., and Guinet C., 2011. Validating hydrographic data obtained from
-seal-borne satellite-relayed data loggers. J. Atmosph. And Ocean. Tech.,
-28:787-801. [doi:
-10.1175/2010JTECHO801.1](http://dx.doi.org/10.1175/2010JTECHO801.1) [\[PDF\]](http://www.meop.net/roquet11jaot_seal_calibrati.pdf)*
-
-**National specificities :**
-
-[For Australian data: \
-Any users of IMOS data are required to clearly acknowledge the source of
-the material derived from IMOS in the format: 
-
-*Data was sourced from the Integrated Marine Observing System (IMOS) -
-IMOS is a national collaborative research infrastructure, supported by
-Australian Government." IMOS data is licensed under a Creative Commons
-Attribution (CCBY) License,
-([http://creativecommons.org.au/](http://creativecommons.org.au/)).*
-
-[For German and South African data: \
-Primary data are also made available through PANGAEA:
-
--   [doi10.1594/PANGAEA.150008](http://doi.pangaea.de/10.1594/PANGAEA.150008) for
-    data related to Marion Island (Southern Ocean Indian Sector)
-
--   [doi10.1594/PANGAEA.150009](http://doi.pangaea.de/10.1594/PANGAEA.150009) for
-    data related to King George Island (Southern Ocean Atlantic Sector)
-
--   [doi10.1594/PANGAEA.150010](http://doi.pangaea.de/10.1594/PANGAEA.150010) for
-    data related to Atka Bay, Drescher Inlet, Filchner Trough (Southern
-    Ocean Atlantic Sector)    

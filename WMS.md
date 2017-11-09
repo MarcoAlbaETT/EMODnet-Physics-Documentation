@@ -158,7 +158,7 @@ Name | Description | Link
 route_mm_psal_0d |Platforms: Marine Mammals - Parameter: PSAL - Time coverage: from 2004 to 2016|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_psal_0d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_mm_psal_0d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)
 route_mm_temp_0d |Platforms: Marine Mammals - Parameter: TEMP - Time coverage: from 2004 to 2016|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_mm_temp_0d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_mm_temp_0d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)
 
-**_For information on how to the layers for Marine Mammals Data Products please refer to [EMODnet Physics Marine Mammals Product document](EMODnetPhysicsMarineMammalsProduct.md)_**
+**_For information on how to use the layers for Marine Mammals Data Products please refer to [EMODnet Physics Marine Mammals Product document](EMODnetPhysicsMarineMammalsProduct.md)_**
 
 
 ## EXAMPLE
