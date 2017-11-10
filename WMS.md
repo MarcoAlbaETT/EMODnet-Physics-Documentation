@@ -83,7 +83,7 @@ The value pof the **yearrange** filter is the concatenation of the start and enb
 
 Example: `viewparams=yearrange:19002015`
 
-## Layers for Data Products
+## Layers for Data Products (Route)
 Name | Description | Link | Filters ([see note](./WMS.md#note-for-data-products-layers))
 ---- | ----------- | ---- | -------
 route_ar_psal_60d |Platforms: Argo - Parameter: PSAL - Time coverage: last 60 days|[GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/route_ar_psal_60d/wms?service=WMS&version=1.1.0&request=GetCapabilities&namespace=emodnet) - [Layers Preview](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?service=WMS&version=1.1.0&request=GetMap&layers=emodnet:route_ar_psal_60d&styles=&bbox=-180,-90,180,90&width=768&height=382&srs=EPSG:4326&format=application/openlayers)| Elevation - QC
