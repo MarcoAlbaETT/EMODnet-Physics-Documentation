@@ -6,9 +6,9 @@ The availabel palette are:
 
 Palette name | Image | Palette name | Image | Palette name | Image | Palette name | Image
 ------------ | ----- | ------------ | ----- | ------------ | ----- | ------------ | -----
-alg.Line.pal | ![alg.Line.pal](./DataProductsLayers/palettes%20png/alg.png) | alg2.Line.pal | ![alg2.Line.pal](./DataProductsLayers/palettes%20png/alg2.png) | ferret.Line.pal | ![ferret.Line.pal](./DataProductsLayers/palettes%20png/ferret.png) |greyscale.Line.pal | ![greyscale.Line.pal](./DataProductsLayers/palettes%20png/greyscale.png) 
-ncview.Line.pal | ![ncview.Line.pal](./DataProductsLayers/palettes%20png/ncview.png) | occam.Line.pal | ![occam.Line.pal](./DataProductsLayers/palettes%20png/occam.png) | occam_pastel-30.Line.pal | ![occam_pastel-30.Line.pal](./DataProductsLayers/palettes%20png/occam_pastel-30.png) | rainbow.Line.pal | ![rainbow.Line.pal](./DataProductsLayers/palettes%20png/rainbow.png) |
-redblue.Line.pal | ![redblue.Line.pal](./DataProductsLayers/palettes%20png/redblue.png) | seq-blueheat.Line.pal | ![seq-blueheat.Line.pal](./DataProductsLayers/palettes%20png/seq-blueheat.png) | sst_36.Line.pal | ![sst_36.Line.pal](./DataProductsLayers/palettes%20png/sst_36.png) 
+alg.Line.pal | ![alg.Line.pal](./palettes%20png/alg.png) | alg2.Line.pal | ![alg2.Line.pal](./palettes%20png/alg2.png) | ferret.Line.pal | ![ferret.Line.pal](./palettes%20png/ferret.png) |greyscale.Line.pal | ![greyscale.Line.pal](./palettes%20png/greyscale.png) 
+ncview.Line.pal | ![ncview.Line.pal](./palettes%20png/ncview.png) | occam.Line.pal | ![occam.Line.pal](./palettes%20png/occam.png) | occam_pastel-30.Line.pal | ![occam_pastel-30.Line.pal](./palettes%20png/occam_pastel-30.png) | rainbow.Line.pal | ![rainbow.Line.pal](./palettes%20png/rainbow.png) |
+redblue.Line.pal | ![redblue.Line.pal](./palettes%20png/redblue.png) | seq-blueheat.Line.pal | ![seq-blueheat.Line.pal](./palettes%20png/seq-blueheat.png) | sst_36.Line.pal | ![sst_36.Line.pal](./palettes%20png/sst_36.png) 
 
 
 To generate the correct layer styling with thiese palettes we have use the GeoServer extension [Variable substitution in SLD](http://docs.geoserver.org/2.10.0/user/styling/sld/extensions/substitution.html) and
